@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    min-height: 250px;
+    width: 600px;
+    margin: auto;
+    border: 5px solid brown;
+    background-color: wheat;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.submit-button {
+    margin-top: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(12, 156, 31);
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 2rem;
+    margin: 5px 0;
+    padding: 2px;
+}
+
+.back-button {
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(136, 7, 7);
+}
+
+.add-button {
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(12, 156, 31);
+}
+
+.edit-button {
+    margin: 3px;
+    padding: 7px;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(190, 178, 10);
+}
+
+.delete-button {
+    margin: 3px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(136, 7, 7);
+}
+
+.info {
+    color: green;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    height: 50px;
+    padding: 10px;
+}
